@@ -1,0 +1,212 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    width: 880px;
+    height:1000px;
+    margin: auto;
+    background: black;
+}
+.CV {
+    background: white;
+    font-size: 90%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.CV .mark1{
+    content:'';
+	margin-left: 50px;
+	width:1px;
+	height:680px;
+	background:black;
+	z-index:2;
+    position: absolute;
+}
+.CV .mark2{
+    content:'';
+	margin-left: 52px;
+	width:1px;
+	height:390px;
+	background:black;
+	z-index:2;
+    position: absolute;
+}
+.CV .ar1 {
+    padding-bottom: 130px;
+    font-size: 12px;
+}
+.CV .ar2 {
+    padding-bottom: 38px;
+    font-size: 12px;
+}
+.CV .ar3 {
+    padding-bottom: 198px;
+        font-size: 12px;
+}
+.CV .ar4 {
+    padding-bottom: 120px;
+    font-size: 12px;
+}
+.CV .ar5 {
+    font-size: 12px;
+}
+.CV .ar6 {
+    font-size: 12px;
+}
+.CV h1{
+    font-size: 19px;
+}
+.CV h2 {
+    font-size: 17px;
+    color: rgb(112, 112, 112);
+}
+.CV a{
+    color: rgb(86, 174, 230);
+    text-decoration: none;
+}
+.CV-header {
+    Background: lightblue;
+    Display: flex;
+    Height: 170px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+.CV-header h1{
+    font-size: 30px;
+}
+.CV-header .pers-info {
+    max-width: 50%;
+}
+.CV-header .pers-info .a1 {
+    font-size: 20px;
+}
+.CV-header .media-info {
+    max-width: 40%;
+    margin-left: auto; 
+    padding-top: 15px;
+    line-height: 35px;
+    text-align: right;
+}
+.CV-header .media-info i{
+    padding-left:7px;
+}
+.CV-body{
+    display: flex;
+    width: 98%;
+    padding:10px;
+}
+.CV-body .left {
+    display: flex;
+    flex-flow:column;
+    padding-right: 30px;
+    padding-left: 20px;
+}
+.CV-body .right {
+    display: flex;
+    flex-flow: column;
+    padding-right: 20px;
+}
+
+.CV-body .PE {
+    Width: 100%;
+}
+.CV-body .PE li {
+    color: rgb(112, 112, 112);
+}
+.CV-body .ED {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    max-height: 600px;
+}
+.CV-body .ED .ED-body {
+    display: flex;
+}
+.CV-body .ED .ED-body article {
+    text-align: center;
+    line-height: 20px;
+}
+.CV-body .ED .ED-body .ul1 li{
+    list-style: disc;
+}
+.CV-body .SK {
+    width: 100%;
+    padding-right: 10px;
+    padding-bottom: 40px;
+}
+.CV-body .SK :nth-child(2) {
+ display: flex;
+ justify-content: center;
+}
+.CV-body .SK .JS{
+background: rgb(34, 144, 212);
+color: white;
+margin-right: 10px;
+width: 90px;
+text-align: center;
+height: 28px;
+padding-top: 10px;
+border-radius: 8px;
+}
+.CV-body .SK .AG{
+    background: rgb(34, 144, 212);
+    color: white;
+    margin-right: 10px;
+    width: 90px;
+    text-align:center;
+height: 28px;
+padding-top: 10px;
+border-radius: 8px;
+}
+.CV-body .SK .NJ{
+    background: rgb(34, 144, 212);
+    color: white;
+    margin-right: 10px;
+    width: 90px;
+    text-align:center;
+height: 28px;
+padding-top: 10px;
+border-radius: 8px;
+}
+.CV-body .SK .MD{
+    background: rgb(34, 144, 212);
+    color: white;
+    width: 90px;
+    text-align:center;
+height: 28px;
+padding-top: 10px;
+border-radius: 8px;
+}
+.CV-body .WE {
+    width:100%;
+    padding-right: 10px;
+}
+.CV-body .WE .WE-body{
+    display: flex;
+}
+.CV-body .WE .WE-body article {
+    text-align: center;
+}
+.CV-body .WE .WE-body .ul2 li{
+    list-style: disc;
+}
+.CV-footer {
+    Background: lightblue;
+    display: flex;
+    width: 100%;
+    height: 50px;
+}
+.CV-footer h1{
+    padding-left: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 30px;
+
+}
+.CV-footer article {
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-right: 20px;
+}
+
+
